@@ -11,3 +11,10 @@
 - transform-origin: 100%;
 - transition-timing-function:
 - style.transform = `rotate(${}deg)`
+## 3 - CSS Variables
+- input --> type="range" 
+- input --> type="color" 
+- CSS --> :root {}
+- CSS var --> --base: #95D600;
+- document.documentElement.style.setProperty --> `--${this.name}`, this.value + suffix
+- addEventListener --> 'change'

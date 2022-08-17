@@ -1,0 +1,48 @@
+:root {
+    --base: #95D600;
+    --gradientPrimary: #ff0f7b;
+    --gradientSecondary: #f89b29;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+img {
+    width: 700px;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.hl {
+    color: var(--base);
+}
+
+body {
+    text-align: center;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, var(--gradientPrimary), var(--gradientSecondary));
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.container {
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controls {
+    text-align: left;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+input {
+    width: 250px;
+}
