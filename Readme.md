@@ -18,3 +18,8 @@
 - CSS var --> --base: #95D600;
 - document.documentElement.style.setProperty --> `--${this.name}`, this.value + suffix
 - addEventListener --> 'change'
+## 4 - Array Cardion Day
+- map()
+- reduce()
+- sort()
+- filter()
