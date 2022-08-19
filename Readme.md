@@ -23,3 +23,4 @@
 - reduce()
 - sort()
 - filter()
+## 5 - Flex Panels Image Gallery
