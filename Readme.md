@@ -24,3 +24,5 @@
 - sort()
 - filter()
 ## 5 - Flex Panels Image Gallery
+- transition: --> flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11)
+- Nested Flex Box 
