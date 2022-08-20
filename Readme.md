@@ -25,4 +25,8 @@
 - filter()
 ## 5 - Flex Panels Image Gallery
 - transition: --> flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11)
-- Nested Flex Box 
+- Nested Flex Box
+## 6 - Ajax Type Ahead --> Auto Fill / suggested items, cities, etc
+- fetch(endpoint).then(blob => blob.json()).then(data => console.log(data));
+- new RegExp(this.value, 'gi') --> g for global, i for case insesitive
+
