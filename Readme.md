@@ -29,4 +29,8 @@
 ## 6 - Ajax Type Ahead --> Auto Fill / suggested items, cities, etc
 - fetch(endpoint).then(blob => blob.json()).then(data => console.log(data));
 - new RegExp(this.value, 'gi') --> g for global, i for case insesitive
-
+## 7 - Array Cardio Day 2
+- some()
+- every()
+- find()
+- findIndex()
