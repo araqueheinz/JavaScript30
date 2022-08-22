@@ -34,3 +34,14 @@
 - every()
 - find()
 - findIndex()
+## 8 Fun With HTML 5 Canvas
+- getContext('') 
+- globalCompositeOperation
+- beginPath();
+- moveTo(lastX, lastY);
+- lineTo(e.offsetX, e.offsetY);
+- stroke();
+- addEventListener --> 'mousemove'
+- addEventListener --> 'mousedown'
+- addEventListener --> 'mouseup'
+- addEventListener --> 'mouseout'
