@@ -45,3 +45,17 @@
 - addEventListener --> 'mousedown'
 - addEventListener --> 'mouseup'
 - addEventListener --> 'mouseout'
+## 9 14 Must Know Dev Tools Tricks
+- Regular
+- Interpolated
+- Styled
+- Warning
+- Error
+- Info
+- Testing
+- Clearing
+- Viewing DOM Elements
+- Grouping together
+- Counting
+- Timing
+# 10 Hold Shift to Check Multiple Checkboxes
