@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <title>09-14 Must Know Dev Tools</title>
+</head>
+<body>
+    <div>
+        <p class="example" onclick="makeRed()">TURN RED ON CLICK</p>
+        <h3>Attribute odifications</h3>
+        <p>Set a breakpoint on the element to watch for modifications</p>
+        <p>inspect > right click on element > brake on > attribute modifications</p>
+    </div>
+    <div>
+        <h3>Regular</h3>
+        <p>console.log('hello')</p>
+    </div>
+    <div>
+        <h3>Interpolated</h3>
+        <p>console.log('the car is %s', carColor )</p>
+        <p>console.log(`the car is ${carColor}`)</p>
+    </div>
+    <div>
+        <h3>Styled</h3>
+        <p>console.log('%c This text can be styled', 'font-size:14px; color: cyan; border: 1px solid black;')</p>
+    </div>
+    <div>
+        <h3>Warning!</h3>
+        <p>console.warn('Oh nooo!')</p>
+    </div>
+    <div>
+        <h3>Error</h3>
+        <p>console.error('No bueno!');</p>
+    </div>
+    <div>
+        <h3>Info</h3>
+        <p>console.info('Info here')</p>
+    </div>
+    <div>
+        <h3>Testing</h3>
+        <p>console.assert(1 === 2, "This will only display if the assertion is wrong!")</p>
+    </div>
+    <div>
+        <h3>clearing</h3>
+        <p>console.clear();</p>
+    </div>
+    <div>
+        <h3>Viewing DOM Elements</h3>
+        <p>console.dir(document.querySelector('.example'));</p>
+        <p>Gives you a dropdown with all the properties and methods</p>
+    </div>
+    <div>
+        <h3>Grouping together</h3>
+        <p>console.groupCollapsed(`${dog.name}`)</p>
+        <p>console.groupEnd(`${dog.name}`)</p>
+    </div>
+    <div>
+        <h3>counting</h3>
+        <p>console.count('Heinz')
+            console.count('Heinz')
+            console.count('Heinz')
+            console.count('Heinz')</p>
+    </div>
+    <div>
+        <h3>timing</h3>
+        <p>console.time('fetching data')</p>
+        <p>performe a task...</p>
+        <p>console.timeEnd('fetching data')</p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
