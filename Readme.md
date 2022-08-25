@@ -59,3 +59,5 @@
 - Counting
 - Timing
 # 10 Hold Shift to Check Multiple Checkboxes
+- Interesting solution
+# 11 - Custome HTML5 Video Player
