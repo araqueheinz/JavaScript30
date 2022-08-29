@@ -61,3 +61,9 @@
 # 10 Hold Shift to Check Multiple Checkboxes
 - Interesting solution
 # 11 - Custome HTML5 Video Player
+- video
+- addEventListener --> 'play'
+- addEventListener --> 'pause' 
+- addEventListener --> 'timeupdate'
+- video['method']()
+- video.currentTime
