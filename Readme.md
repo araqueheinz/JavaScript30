@@ -60,10 +60,14 @@
 - Timing
 # 10 Hold Shift to Check Multiple Checkboxes
 - Interesting solution
-# 11 - Custome HTML5 Video Player
+# 11 Custome HTML5 Video Player
 - video
 - addEventListener --> 'play'
 - addEventListener --> 'pause' 
 - addEventListener --> 'timeupdate'
 - video['method']()
 - video.currentTime
+# 12 Key Sequence Detenction
+- window.addEventListener -> 'keyup
+- pressed.splice(-secretCode.length -1, pressed.length - secretCode.length)
+- array.join('').includes()
